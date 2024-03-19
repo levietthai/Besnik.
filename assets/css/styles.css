@@ -11,6 +11,10 @@ html {
 
 }
 
+main {
+    height: 2000px;
+}
+
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
@@ -132,4 +136,35 @@ a {
     bottom: 0; 
     right: calc((100vw - 1100px) / 2 - 100px); 
 }
+
+/* Clients */
+
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .decs {
+    color: #7D8589;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25; 
+}
+
+.clients .row-decs {
+    margin-top: 24px;
+}
+
+.clients .img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 96px;
+}
+
+
 
